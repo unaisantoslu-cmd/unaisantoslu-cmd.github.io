@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copa Mágica de Quidditch 2025</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Copa Mágica de Quidditch 2025</h1>
+    <!-- Menú horizontal -->
+    <nav class="menu-horizontal">
+      <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a>
+      <a href="#" onclick="mostrarSeccion('informacion')">Información</a>
+      <a href="#" onclick="mostrarSeccion('contacto')">Contacto</a>
+      <a href="#" onclick="mostrarSeccion('galeria')">Galería</a>
+    </nav>
+  </header>
+
+  <!-- Layout principal -->
+  <div class="layout">
+    <main class="contenido">
+      <!-- Sección Inicio -->
+      <section id="inicio" class="seccion visible">
+        <h2>Inicio</h2>
+        <p>¡Bienvenido al torneo mágico de Quidditch 2025!</p>
+        <img src="enfrentamiento.png" alt="Estadio de Quidditch">
+      </section>
+
+      <!-- Sección Información -->
+      <section id="informacion" class="seccion">
+        <h2>Información</h2>
+        <p>Aquí encontrarás todos los detalles sobre enfrentamientos, reglas, fechas y sedes de la Copa Mágica de Quidditch 2025.</p>
+      </section>
+
+      <!-- Sección Contacto -->
+      <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas? Contáctanos:</p>
+        <p>Email: quidditch2025@magia.com</p>
+        <p>Tel: +34 123 456 789</p>
+      </section>
+
+      <!-- Sección Galería -->
+      <section id="galeria" class="seccion">
+        <h2>Galería</h2>
+        <p>Revive los mejores momentos del torneo:</p>
+        <img src="quidditch1.jpg" alt="Partido de Quidditch">
+        <img src="quidditch2.jpg" alt="Jugador volando en escoba">
+      </section>
+    </main>
+
+    <!-- Barra lateral -->
+    <aside class="barra-lateral">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="#">Fórmate</a></li>
+        <li><a href="#">Escuela</a></li>
+        <li><a href="#">Entradas</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>CORTESÍA DE ELORRIETA</p>
+  </footer>
+
+  <!-- Cursor mágico -->
+  <div id="wand-cursor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
